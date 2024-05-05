@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="conteiner conteiner_header">
+            <img src="img/pik1.png" alt="" class="header__logo">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">главное</li>
+                    <li class="nav__item">о нас</li>
+                    <li class="nav__item">скриншоты</li>
+                    <li class="nav__item">отзывы</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero-block">
+            <div class="conteiner container_hero-block">
+                <img src="img/hero-block__img.png" alt="kartinka" class="hero-block__img">
+                <div class="hero-block__content">
+                    <h1 class="hero-block__title">Меня зовут Артемий Шилин</h1>
+                    <a href="#" class="hero-block__link">Написать мне</a>
+                </div>
+            </div>
+            </section>
+        <section class="about">
+         <h2 class="about__title">Обо мне</h2>
+        <div class="conteiner conteiner_about">
+           
+            <div class="about__content">
+                <p class="about__text">Я незанимаюсь веб-дизайном, разработкой уже 0 лет. Вам нужен дизайн веб-сайта,
+                    верстка сайта или может быть сайт "под ключ"? Тогда несвязывайте со мной!</p>
+                <img src="pik2.png" class="about__img">
+            </div>
+        </div>
+        </section>
+        <section class="video">
+            <div class="conteiner conteiner_video">
+                <h2 class="video__title">видео</h2>
+                <iframe class="video__video" src="https://www.youtube.com/embed/2GB9clk0vLU?si=9q3MTfvB621eCstW"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="conteiner">
+            <h3 class="gallery__title">галерея</h3>
+            <ul class="gallery__list">
+                <li class="gallery__item">
+                    <a href="img\gallery__img.png" class="lightzoom">
+                        <img class="gallery__img" src="img\gallery__img.png" />
+                    </a>
+                </li>
+                <li class="gallery__item">
+                    <a href="img\gallery__img(1).png" class="lightzoom">
+                        <img class="gallery__img" src="img\gallery__img(1).png" />
+                    </a>
+                </li>
+                <li class="gallery__item">
+                    <a href="img\gallery__img(2).png" class="lightzoom">
+                        <img class="gallery__img" src="img\gallery__img(2).png" />
+                    </a>
+                </li>
+                <li class="gallery__item">
+                    <a href="img\gallery__img(3).png" class="lightzoom">
+                        <img class="gallery__img" src="img\gallery__img(3).png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="conteiner conteiner__footer">
+            <div class="footer__content">
+                <h3 class="footer__title">Артемий Шилин</h3>
+                <p class="footer__text">&copy;2024. Все права незащищены.</p>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a href="#" class="footer__link">
+                        <img src="img/icon_tg.svg" class="footer__img">
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">
+                        <img src="img/icon_vk.svg" class="footer__img">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+    <script type="text/javascript">
+        jQuery('.lightzoom').lightzoom({ speed: 400, viewTitle: true });
+    </script>
+</body>
+</html>
