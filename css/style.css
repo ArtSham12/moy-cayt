@@ -27,7 +27,7 @@
 .nav__item {
     margin-right: 30px;
     color: rgb(228, 228, 228);
-    font-family: Inter;
+    font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.78px;
@@ -48,7 +48,7 @@
 
 .hero-block__title {
     color: rgb(228, 228, 228);
-    font-family: inter;
+    font-family: Roboto;
     font-size: 64px;
     font-weight: 400;
     line-height: 77.45px;
@@ -60,7 +60,7 @@
 .hero-block__link {
     background: blue;
     color: rgb(0, 0, 0);
-    font-family: Inter;
+    font-family: Roboto;
     font-size: 18px;
     font-weight: 400;
     line-height: 21.78px;
@@ -85,7 +85,7 @@
 
 .about__title {
     color: rgb(255, 255, 255);
-    font-family: Inter;
+    font-family: Roboto;
     font-size: 48px;
     font-weight: 400;
     line-height: 58.09px;
@@ -98,7 +98,7 @@
 .about__text {
     max-width: 438px;
     color: rgb(255, 255, 255);
-    font-family: Inter;
+    font-family: Roboto;
     font-size: 28px;
     font-weight: 400;
     line-height: 33.89px;
@@ -126,7 +126,7 @@
 
 .video__title {
     color: rgb(228, 228, 228);
-    font-family: Inter;
+    font-family: Roboto;
     font-size: 48px;
     font-weight: 400;
     line-height: 58.09px;
@@ -148,7 +148,7 @@
 }
 .gallery__title{
     color: rgb(228, 228, 228);
-font-family: Inter;
+font-family: Roboto;
 font-size: 48px;
 font-weight: 400;
 line-height: 58.09px;
@@ -182,7 +182,7 @@ text-align: center;
 
 .footer__title {
     color: rgb(228, 228, 228);
-font-family: Inter;
+font-family: Roboto;
 font-size: 30px;
 font-weight: 400;
 line-height: 36.31px;
@@ -191,7 +191,7 @@ text-align: left;
 }
 .footer__text{
     color: rgb(228, 228, 228);
-font-family: Inter;
+font-family: Roboto;
 font-size: 16px;
 font-weight: 400;
 line-height: 19.36px;
